@@ -1,0 +1,47 @@
+.TH agecalc 1 "November 2025" "Age Calculator"
+.SH NAME
+agecalc \- calculate your age from birthdate
+.SH SYNOPSIS
+.B agecalc
+\fB\-b\fR YYYY-MM-DD [\fB-y\fR|\fB-d\fR|\fB-u\fR|\fB-f\fR|\fB-h\fR|\fB-v\fR]
+.SH DESCRIPTION
+agecalc is a command line utility that calculates your age from your birthdate and provides different output formats such as age in years, total days lived, and days until your next birthday.
+.SH OPTIONS
+.TP
+\fB-b\fR YYYY-MM-DD
+Specify your birthdate in Year-Month-Day format. (Required)
+.TP
+\fB-y\fR
+Show only the age in years.
+.TP
+\fB-d\fR
+Show only the total number of days lived.
+.TP
+\fB-u\fR
+Show the number of days remaining until the next birthday.
+.TP
+\fB-f\fR
+Show full information: age in years, months, days, total days lived, and days until next birthday.
+.TP
+\fB-h\fR
+Display help information and exit.
+.TP
+\fB-v\fR
+Display version information and exit.
+.SH EXAMPLES
+.TP
+Calculate age with full information:
+.B agecalc -b 2000-11-24 -f
+.TP
+Show only years:
+.B agecalc -b 2000-11-24 -y
+.TP
+Check days lived:
+.B agecalc -b 2000-11-24 -d
+.TP
+Days until next birthday:
+.B agecalc -b 2000-11-24 -u
+.SH AUTHOR
+Anitha (2025)
+.SH VERSION
+1.0.0
