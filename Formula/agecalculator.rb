@@ -7,7 +7,7 @@ class Agecalculator < Formula
 
   def install
     bin.install "bin/agecalc"
-    man1.install "man/agecalculator.1"
+    man1.install "man/agecalc.1"
   end
 
   test do
